@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "B.Tech Computer Science Engineering",
+    duration: "2021 - 2025",
+    institution: "Darshan University, Rajkot, Gujarat"
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
+    title: "12th Higher Secondary",
     duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    institution: "Utkarsh School of Excellence, Rajkot, Gujarat"
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
+    title: "10th Secondary School",
     duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    institution: "Masoom School, Rajkot, Gujarat"
   }
 ]

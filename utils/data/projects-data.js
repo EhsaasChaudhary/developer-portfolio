@@ -1,51 +1,61 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from "/public/image/ayla.jpg";
+import crefin from "/public/image/crefin.jpg";
+import realEstate from "/public/image/real-estate.jpg";
+import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Leave Management System",
+    description:
+      "Developed a comprehensive Leave Management System featuring an intuitive admin dashboard for efficient employee management, leave request handling, and leave balance tracking. This application streamlines the process of managing and tracking employee leave requests, enabling companies to handle these requests efficiently. By utilizing SQL procedures for data manipulation and designing a user-friendly dashboard UI, I ensured a seamless and effective experience for end-users.",
+    tools: ["ASP .net", ".net MVC", "SQL", "Microsoft SQL Studio"],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    // image: crefin,
+  },
+  {
+    id: 2,
+    name: "Vercel Acme Demo App",
+    description:
+      "Developed and deployed an admin interface with real-time updates using PostgreSQL on Vercel. Enhanced skills in server-side rendering and database integration with Next.js. This Demo project helped me learn importance of clean code and efficeent project building",
+    tools: ["Next JS", "Vercel", "Postgres Vercel", "javascript"],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+    // image: travel,
+  },
+  {
+    id: 3,
+    name: "BanksMy Banking App",
+    description:
+      "Currently working on creating a banking app that includes features such as bank profiles, money transfers, transaction history, multiple bank registrations, login/logout, and chart analysis. This app is built using Firebase for the database, Next.js for the frontend, and deployed on Vercel. This project has provided me with the opportunity to learn the process of building a full-fledged app from scratch and explore multiple new technologies I wasn't aware of before.",
+    tools: [
+      "Next JS",
+      "Vercel",
+      "Tailwind",
+      "Shadcn UI",
+      "firebase",
+      "Plaid",
+      "Sentry",
+    ],
+    code: "",
+    role: "Full Stack Developer",
+    demo: "",
+    // image: realEstate,
+  },
+  //{
+  //     id: 1,
+  //     name: '',
+  //     description: "",
+  //     tools: [],
+  //     role: '',
+  //     code: '',
+  //     demo: '',
+  //     image: crefin,
+  //},
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
