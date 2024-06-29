@@ -170,8 +170,8 @@ function ContactWithCaptcha() {
     e.preventDefault();
 
     emailjs
-      .sendForm('process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID', 'process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID', form.current, {
-        publicKey: 'process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY',
+      .sendForm('process.env.EMAILJS_SERVICE_ID', 'process.env.EMAILJS_TEMPLATE_ID', form.current, {
+        publicKey: 'process.env.EMAILJS_PUBLIC_KEY',
       })
       .then(
         () => {
