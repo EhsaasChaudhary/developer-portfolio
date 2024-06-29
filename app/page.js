@@ -28,13 +28,13 @@ export default async function Home() {
   return (
     <>
       <HeroSection />
-      <AboutSection />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Education />
-      <Blog blogs={blogs} />
-      <ContactSection />
+      <AboutSection id="about" />
+      <Experience id="experience" />
+      <Skills id="skills"/>
+      <Projects id="projects"/>
+      <Education id="education"/>
+      <Blog blogs={blogs} id="blogs" />
+      <ContactSection id="contact"/>
     </>
   )
 };
