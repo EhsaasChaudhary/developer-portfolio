@@ -33,8 +33,8 @@ export default async function Home() {
       <Skills id="skills"/>
       <Projects id="projects"/>
       <Education id="education"/>
-      <Blog blogs={blogs} id="blog" />
-      <ContactSection id="contact"/>
+      <Blog blogs={blogs} id="blogs" />
+      <ContactSection />
     </>
   )
 };
