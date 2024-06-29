@@ -19,7 +19,7 @@ const pages = [
     name: "EDUCATION"
   },
   {
-    path: "/blog",
+    path: "/#blog",
     name: "BLOGS"
   },
   {
