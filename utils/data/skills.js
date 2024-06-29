@@ -13,7 +13,6 @@ export const skillsData = [
   'Bootstrap',
   'Figma',
   // 'ASP .net',
-  'Figma',
   'Canva',
   'Java'
 ]
