@@ -17,10 +17,10 @@ const pages = [
     path: "/#education",
     name: "EDUCATION"
   },
-  {
-    path: "/#blog",
-    name: "BLOGS"
-  },
+  // {
+  //   path: "/#blog",
+  //   name: "BLOGS"
+  // },
   {
     path: "/#projects",
     name: "PROJECTS"
